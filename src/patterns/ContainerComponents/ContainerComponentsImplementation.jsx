@@ -1,17 +1,21 @@
-import { ResourceLoader } from "./resource-loader"
 import { UserInfo } from "./user-info"
-import { BookInfo } from "./book-info"
+import { DataSource } from "./data-source"
+import { axiosInstance } from "../../data/axiosInstance"
+
+const getDataFromServer = async (url) => {
+    const response = await axiosInstance.get(url)
+    return response.data
+}
 
 export const ContainerComponentsImplementations = () => {
     return (
         <>
-            <ResourceLoader resourceUrl={"/users/2"} resourceName={"user"}>
+            <DataSource
+                getData={() => getDataFromServer("/users/3")}
+                resourceName={"user"}
+            >
                 <UserInfo />
-            </ResourceLoader>
-            
-            <ResourceLoader resourceUrl={"/books/1"} resourceName={"book"}>
-                <BookInfo />
-            </ResourceLoader>
+            </DataSource>
         </>
     )
 }
