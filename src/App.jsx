@@ -1,7 +1,7 @@
-import { ListComponentsImplementation } from "./patterns/LayoutComponents/ListComponentsImplementation"
+import { ContainerComponentsImplementations } from "./patterns/ContainerComponents/ContainerComponentsImplementation"
 
 export const App = () => {
   return (
-    <ListComponentsImplementation />
+    <ContainerComponentsImplementations />
   )
 }
