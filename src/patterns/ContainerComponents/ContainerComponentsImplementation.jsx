@@ -1,10 +1,10 @@
-import { CurrentUserLoader } from "./current-user-loader"
 import { UserInfo } from "./user-info"
+import { UserLoader } from "./user-loader"
 
 export const ContainerComponentsImplementations = () => {
     return (
-        <CurrentUserLoader>
+        <UserLoader userId={3}>
             <UserInfo />
-        </CurrentUserLoader>
+        </UserLoader>
     )
 }
