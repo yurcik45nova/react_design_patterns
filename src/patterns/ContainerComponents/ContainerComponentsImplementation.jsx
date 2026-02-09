@@ -1,10 +1,17 @@
+import { ResourceLoader } from "./resource-loader"
 import { UserInfo } from "./user-info"
-import { UserLoader } from "./user-loader"
+import { BookInfo } from "./book-info"
 
 export const ContainerComponentsImplementations = () => {
     return (
-        <UserLoader userId={3}>
-            <UserInfo />
-        </UserLoader>
+        <>
+            <ResourceLoader resourceUrl={"/users/2"} resourceName={"user"}>
+                <UserInfo />
+            </ResourceLoader>
+            
+            <ResourceLoader resourceUrl={"/books/1"} resourceName={"book"}>
+                <BookInfo />
+            </ResourceLoader>
+        </>
     )
 }
