@@ -1,7 +1,7 @@
-import { ContainerComponentsImplementations } from "./patterns/ContainerComponents/ContainerComponentsImplementation"
+import { ContUncontComponentsImplementation } from "./patterns/ControlledAndUncontrolledComponents/ContUncontComponentsImplementation"
 
 export const App = () => {
   return (
-    <ContainerComponentsImplementations />
+    <ContUncontComponentsImplementation />
   )
 }
