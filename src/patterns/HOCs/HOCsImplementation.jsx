@@ -1,14 +1,9 @@
-import { logProps } from "./log-props"
-import { UserInfo } from "../ContainerComponents/user-info"
-import { includeUser } from "./include-user"
-
-
-const UserInfoWithLoaderWrapper = includeUser(UserInfo, "3")
+import { UserInfoForm } from "./user-form"
 
 export const HOCsImplementation = () => {
   return (
     <>
-      <UserInfoWithLoaderWrapper />
+      <UserInfoForm />
     </>
   )
 }
