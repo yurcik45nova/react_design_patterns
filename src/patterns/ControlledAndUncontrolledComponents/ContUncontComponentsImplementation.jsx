@@ -1,9 +1,9 @@
-import { UncontrolledFrom } from "./uncontrolled-form"
+import { ControlledForm } from "./controlled-form"
 
 export const ContUncontComponentsImplementation = () => {
     return (
         <>
-            <UncontrolledFrom />
+            <ControlledForm />
         </>
     )
 }
