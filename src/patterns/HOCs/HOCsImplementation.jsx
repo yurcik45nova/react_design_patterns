@@ -1,13 +1,14 @@
 import { logProps } from "./log-props"
 import { UserInfo } from "../ContainerComponents/user-info"
+import { includeUser } from "./include-user"
 
 
-const UserInfoWrapper = logProps(UserInfo)
+const UserInfoWithLoaderWrapper = includeUser(UserInfo, "3")
 
 export const HOCsImplementation = () => {
   return (
     <>
-      <UserInfoWrapper test={"test"} />
+      <UserInfoWithLoaderWrapper />
     </>
   )
 }
