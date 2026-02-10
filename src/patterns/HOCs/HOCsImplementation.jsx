@@ -1,4 +1,4 @@
-import { logProps } from "../ControlledAndUncontrolledComponents/log-props"
+import { logProps } from "./log-props"
 import { UserInfo } from "../ContainerComponents/user-info"
 
 
