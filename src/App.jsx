@@ -1,7 +1,7 @@
-import { ContUncontComponentsImplementation } from "./patterns/ControlledAndUncontrolledComponents/ContUncontComponentsImplementation"
+import { HOCsImplementation } from "./patterns/HOCs/HOCsImplementation"
 
 export const App = () => {
   return (
-    <ContUncontComponentsImplementation />
+    <HOCsImplementation />
   )
 }
