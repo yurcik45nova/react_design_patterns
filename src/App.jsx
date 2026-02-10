@@ -1,7 +1,5 @@
-import { HOCsImplementation } from "./patterns/HOCs/HOCsImplementation"
+import { CustomHooksImplementation } from "./patterns/CustomHooks/CustomHooksImplementation";
 
 export const App = () => {
-  return (
-    <HOCsImplementation />
-  )
-}
+  return <CustomHooksImplementation />;
+};
