@@ -1,4 +1,5 @@
 import { GreenSmallButton, RedButton } from "./composition"
+import { RedSmallButton } from "./partial"
 import { RecursiveComponent } from "./recursive"
 
 
@@ -18,8 +19,10 @@ export const FunctionalProgrammingImplementation = () => {
   return (
     <>
       {/* <RecursiveComponent data={myNestedObject} /> */}
-      <RedButton text={"RedButton"}  />
-      <GreenSmallButton text={"GreenSmallButton"}  />
+      {/* <RedButton text={"RedButton"}  />
+      <GreenSmallButton text={"GreenSmallButton"}  /> */}
+      <RedButton text={"red button"} />
+      <RedSmallButton text={"small and red button"} />
     </>
   )
 }
