@@ -1,5 +1,5 @@
-import { CustomHooksImplementation } from "./patterns/CustomHooks/CustomHooksImplementation";
+import { RecursiveComponentsImplementation } from "./patterns/FunctionalProgramming/RecursiveComponentsImplementation";
 
 export const App = () => {
-  return <CustomHooksImplementation />;
+  return <RecursiveComponentsImplementation />;
 };
