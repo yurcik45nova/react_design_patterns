@@ -13,7 +13,7 @@ const myNestedObject = {
   key3: "value3"
 }
 
-export const RecursiveComponentsImplementation = () => {
+export const FunctionalProgrammingImplementation = () => {
   return (
     <>
       <RecursiveComponent data={myNestedObject} />

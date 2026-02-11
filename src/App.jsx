@@ -1,5 +1,5 @@
-import { RecursiveComponentsImplementation } from "./patterns/FunctionalProgramming/RecursiveComponentsImplementation";
+import { FunctionalProgrammingImplementation } from "./patterns/FunctionalProgramming/FunctionalProgrammingImplementation";
 
 export const App = () => {
-  return <RecursiveComponentsImplementation />;
+  return <FunctionalProgrammingImplementation />;
 };
