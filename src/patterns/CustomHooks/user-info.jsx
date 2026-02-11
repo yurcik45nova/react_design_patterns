@@ -1,4 +1,4 @@
-import { useUser } from "../ContainerComponents/user.hook";
+import { useUser } from "./user.hook";
 
 export const UserInfo = ({userId}) => {
     const user = useUser(userId)
