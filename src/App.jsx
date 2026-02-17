@@ -1,5 +1,5 @@
-import { FunctionalProgrammingImplementation } from "./patterns/FunctionalProgramming/FunctionalProgrammingImplementation";
+import { CompoundComponentsImplementation } from "./patterns/CompoundComponents/CompoundComponentsImplementation";
 
 export const App = () => {
-  return <FunctionalProgrammingImplementation />;
+  return <CompoundComponentsImplementation />;
 };
