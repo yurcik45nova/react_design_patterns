@@ -1,5 +1,5 @@
-import { CompoundComponentsImplementation } from "./patterns/CompoundComponents/CompoundComponentsImplementation";
+import { ObserverPatternImplementation } from "./patterns/ObserverPattern/ObserverPatternImplementation";
 
 export const App = () => {
-  return <CompoundComponentsImplementation />;
+  return <ObserverPatternImplementation />;
 };
